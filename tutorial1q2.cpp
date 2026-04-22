@@ -18,7 +18,7 @@ int main() {
     if (height > 0) {
         bmi = weight / (height * height);
 
-        // Display results with precision
+        // Display results
         cout << fixed << setprecision(4);
         cout << "\nYour bmi = " << bmi << endl;
 
